@@ -1,0 +1,15 @@
+query Users($first: Int) {
+  users(first: $first) {
+    edges {
+      node {
+        id
+        userId
+        name
+        email
+        password
+        createdAt
+        updatedAt
+      }
+    }
+  }
+}
