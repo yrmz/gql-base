@@ -1,4 +1,4 @@
-import { decode, encode } from 'common/utiles';
+import { decode, encode } from 'common/utils';
 import { extendType } from 'nexus';
 import { userObject } from 'schemas/objects/user';
 

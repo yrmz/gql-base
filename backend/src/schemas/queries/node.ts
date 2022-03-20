@@ -1,5 +1,5 @@
 import { UserInputError } from 'apollo-server-express';
-import { decode } from 'common/utiles';
+import { decode } from 'common/utils';
 import { node } from 'interface/node';
 import { idArg, nonNull, queryType } from 'nexus';
 
