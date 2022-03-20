@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": [
+      "esnext"
+    ],
+    "strict": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "sourceMap": true,
+    "esModuleInterop": true
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "require": [
+      "typescript-transform-paths/register",
+      "tsconfig-paths/register"
+    ]
+  },
+}

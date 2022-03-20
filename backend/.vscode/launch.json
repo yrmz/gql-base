@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "node",
+      "request": "launch",
+      "protocol": "inspector",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node",
+      "args": [
+        "${workspaceFolder}/src/index.ts"
+      ],
+      "restart": true,
+      "env": {
+        "NODE_ENV": "local_dev"
+      },
+    }
+  ],
+}
